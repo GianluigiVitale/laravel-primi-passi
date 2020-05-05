@@ -22,6 +22,12 @@ li {
   list-style: none;
 }
 
+.container {
+  width: 80%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 /* FINE COMMON */
 
 /* INIZIO HEADER */
@@ -59,5 +65,61 @@ header li {
 
 /* INIZIO FOOTER */
 
+footer .container {
+  display: flex;
+  padding: 100px 0 20px 0;
+  color: #848D9B;
+}
+
+footer .container img {
+  width: 225px;
+  padding-bottom: 25px;
+}
+
+footer .container li {
+  padding-bottom: 15px;
+}
+
+footer .container a {
+  color: #848D9B;
+}
+
+.infos p {
+  padding-bottom: 7px;
+}
+
+.list-footer {
+  width: 33%;
+  margin-right: 5%;
+}
+
+h3 {
+  padding: 20px 0;
+  font-size: 22px;
+}
+
+.img-bg-footer {
+  overflow-x: hidden;
+}
+
+#background-footer {
+  min-width: 100vw;
+}
+
 /* FINE FOOTER */
+
+/* INIZIO MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+  }
+
+  .list-footer {
+    width: 100%;
+    margin-right: 0%;
+  }
+}
+
+/* FINE MEDIA QUERY */
 

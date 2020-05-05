@@ -1,5 +1,5 @@
 <header>
-    <img id="molisana-logo" src="{{asset('img/logo.png')}}" alt="La Molisana">
+    <img class="molisana-logo" src="{{asset('img/logo.png')}}" alt="La Molisana">
     <nav class="header-nav">
         <ul>
             <li><a href="#">Home</a></li>

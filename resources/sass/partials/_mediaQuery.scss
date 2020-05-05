@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    footer .container {
+        flex-direction: column;
+    }
+
+    .list-footer {
+        width: 100%;
+        margin-right: 0%;
+    }
+}

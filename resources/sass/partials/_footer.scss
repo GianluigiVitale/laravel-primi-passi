@@ -1,0 +1,42 @@
+footer .container {
+    display: flex;
+    padding: 100px 0 20px 0;
+    color: $second_color;
+
+    img {
+        width: 225px;
+        padding-bottom: 25px;
+    }
+
+    li {
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: $second_color;
+    }
+}
+
+.infos {
+    p {
+        padding-bottom: 7px;
+    }
+}
+
+.list-footer {
+    width: 33%;
+    margin-right: 5%;
+}
+
+h3 {
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+.img-bg-footer {
+    overflow-x: hidden;
+}
+
+#background-footer {
+    min-width: 100vw;
+}
