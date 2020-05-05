@@ -142,16 +142,7 @@ foreach ($cards as $key => $card) {
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
-        <header>
-            <img id="molisana-logo" src="{{asset('img/logo.png')}}" alt="La Molisana">
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Prodotti</a></li>
-                    <li><a href="#">News</a></li>
-                </ul>
-            </nav>
-        </header>
+        @include('partials.header')
         <main>
             @if (!empty($pasta_lng['lunga']))
                 <h2>LE LUNGHE</h2>
@@ -213,8 +204,6 @@ foreach ($cards as $key => $card) {
                 @endforeach
             @endif
         </main>
-        <footer>
-
-        </footer>
+        @include('partials.footer')
     </body>
 </html>

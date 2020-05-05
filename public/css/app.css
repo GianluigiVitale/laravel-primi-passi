@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+/* FINE RESET */
+
+/* INIZIO COMMON */
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -18,15 +22,42 @@ li {
   list-style: none;
 }
 
+/* FINE COMMON */
+
+/* INIZIO HEADER */
+
 header {
   text-align: center;
 }
 
+header img {
+  padding: 30px 0 40px 0;
+  width: 200px;
+}
+
 header a {
   color: black;
+  padding: 15px 10px;
+}
+
+header a:hover {
+  transition: 0.05s linear background-color;
+  background-color: #b2e5fc;
 }
 
 header li {
   display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
 }
+
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+/* FINE FOOTER */
 
