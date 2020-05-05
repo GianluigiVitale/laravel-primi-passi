@@ -1,0 +1,32 @@
+main {
+    margin: 19px 0;
+
+    .container {
+        padding: 50px 0;
+    }
+
+    h2 {
+        color: $third_color;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+}
+
+.tipo-pasta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.card-link {
+    display: none;
+}

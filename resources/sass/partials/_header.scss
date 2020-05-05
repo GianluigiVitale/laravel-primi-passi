@@ -1,15 +1,16 @@
 header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     img {
-        padding: 30px 0 40px 0;
-        width: 200px;
+        padding: 50px 0 70px 0;
     }
 
     a {
         color: $first_color;
-        padding: 15px 10px;
-        
+        padding: 20px 15px;
+
         &:hover {
             transition: 0.05s linear background-color;
             background-color: #b2e5fc;
@@ -19,6 +20,13 @@ header {
     li {
         display: inline-block;
         margin: 0 5px;
-        font-size: 20px;
+        font-size: 26px;
     }
+}
+
+i {
+    display: none !important;
+    cursor: pointer;
+    font-size: 25px;
+    color: $third_color;
 }

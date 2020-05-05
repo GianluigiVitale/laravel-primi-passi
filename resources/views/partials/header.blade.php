@@ -7,4 +7,5 @@
             <li><a href="#">News</a></li>
         </ul>
     </nav>
+    <i class="fas fa-bars"></i>
 </header>
