@@ -18,15 +18,42 @@ main {
 }
 
 .card {
+    position: relative;
     width: calc(100% / 3 - 10px);
     margin-right: 10px;
     margin-bottom: 10px;
+    overflow: hidden;
 
     img {
+        display: block;
         width: 100%;
+        transition: 0.16s linear transform;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.15);
+            filter: blur(1px);
+        }
+
+        .card-link {
+            opacity: 1;
+        }
     }
 }
 
 .card-link {
-    display: none;
+    width: 100%;
+    height: 100%;
+    @include absolute-center();
+    @include flex-align-column-justify-textCenter(center, space-around);
+    opacity: 0;
+    transition: 0.05s linear opacity;
+
+    h3 {
+        font-size: 22px;
+    }
+    a {
+        color: $second_color;
+    }
 }

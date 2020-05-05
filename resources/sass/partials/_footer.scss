@@ -3,6 +3,11 @@ footer .container {
     padding: 20px 0 20px 0;
     color: $second_color;
 
+    h3 {
+        padding: 20px 0;
+        font-size: 22px;
+    }
+
     img {
         width: 225px;
         padding-bottom: 25px;
@@ -26,11 +31,6 @@ footer .container {
 .list-footer {
     width: 33%;
     margin-right: 5%;
-}
-
-h3 {
-    padding: 20px 0;
-    font-size: 22px;
 }
 
 .img-bg-footer {
