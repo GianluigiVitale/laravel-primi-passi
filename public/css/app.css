@@ -32,6 +32,10 @@ li {
   background-color: #b2e5fc;
 }
 
+i.lg-none {
+  display: none;
+}
+
 /* FINE COMMON */
 
 /* INIZIO HEADER */
@@ -63,7 +67,6 @@ header li {
 }
 
 i {
-  display: none !important;
   cursor: pointer;
   font-size: 25px;
   color: #234C87;
@@ -74,6 +77,7 @@ i {
 /* INIZIO MAIN */
 
 main {
+  background-image: url(/images/bg.jpg?00a917a9de0c49fcedc00f533a6f0b44);
   margin: 19px 0;
 }
 
@@ -192,8 +196,8 @@ footer .container a {
 @media screen and (max-width: 992px) {
   /* HEADER */
 
-  i {
-    display: inline-block !important;
+  i.lg-none {
+    display: inline-block;
   }
 
   .header-nav {
