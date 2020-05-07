@@ -17,5 +17,19 @@
             <img src="{{$prodotto['src']}}" alt="{{$prodotto['titolo']}}">
             <p>{!!$prodotto['descrizione']!!}</p>
         </div>
+        @if ($id-1 >= 0)
+            <div class="chevron-left">
+                <a href="{{route('prodotti.show', $id-1)}}"><i class="fas fa-chevron-left"></i></a>
+            </div>
+        @endif
+        @if ($id+1 <= count($cards)-1)
+            <div class="chevron-right">
+                <a href="{{route('prodotti.show', $id+1)}}"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        @endif
     </main>
+@endsection
+
+@section('script')
+    <script src="{{asset('js/app.js')}}" charset="utf-8"></script>
 @endsection

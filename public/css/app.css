@@ -144,6 +144,7 @@ i {
 /* main of single product page */
 
 .product {
+  position: relative;
   margin: 19px 0;
   background-color: #B6DBE4;
 }
@@ -169,6 +170,28 @@ i {
   color: #234C87;
   font-size: 28px;
   line-height: 35px;
+}
+
+[class^=chevron] {
+  position: absolute;
+  top: 50%;
+  padding: 25px 15px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+}
+
+[class^=chevron] i {
+  color: white;
+  font-size: 32px;
+}
+
+.chevron-left {
+  left: 0;
+}
+
+.chevron-right {
+  right: 0;
 }
 
 /* end main*/
@@ -250,8 +273,16 @@ footer .container a {
   }
 
   .product .container p {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  [class^=chevron] {
+    padding: 20px 10px;
+  }
+
+  [class^=chevron] i {
+    font-size: 25px;
   }
 
   /* FOOTER */
@@ -285,6 +316,25 @@ footer .container a {
 
   .card {
     width: calc(100% - 10px);
+  }
+
+  /* MAIN PRODUCT */
+
+  .product .container h1 {
+    font-size: 24px;
+  }
+
+  .product .container p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  [class^=chevron] {
+    padding: 15px 7px;
+  }
+
+  [class^=chevron] i {
+    font-size: 18px;
   }
 }
 

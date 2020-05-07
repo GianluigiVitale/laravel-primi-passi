@@ -58,6 +58,7 @@
 /* main of single product page */
 
 .product {
+    position: relative;
     margin: 19px 0;
     background-color: #B6DBE4;
 
@@ -81,6 +82,28 @@
         font-size: 28px;
         line-height: 35px;
     }
+}
+
+[class^='chevron'] {
+    position: absolute;
+    top: 50%;
+    padding: 25px 15px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.45);
+    cursor: pointer;
+
+    i {
+        color: white;
+        font-size: 32px;
+    }
+}
+
+.chevron-left {
+    left: 0;
+}
+
+.chevron-right {
+    right: 0;
 }
 
 /* end main*/

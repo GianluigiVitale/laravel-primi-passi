@@ -6,9 +6,10 @@
         <title>La Molisana - @yield('titolo')</title>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <script src="https://kit.fontawesome.com/29630d724d.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
-        @include('partials.header')        
+        @include('partials.header')
         @yield('main')
         @include('partials.footer')
 
