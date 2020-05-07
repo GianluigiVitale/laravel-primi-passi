@@ -18,6 +18,18 @@
         width: calc(100% / 2 - 10px);
     }
 
+    /* MAIN PRODUCT */
+    .product .container {
+        h1 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+
 
     /* FOOTER */
     footer .container {

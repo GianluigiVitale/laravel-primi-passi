@@ -1,10 +1,6 @@
-main {
+.products {
     background-image: url('../../../public/images/bg.jpg');
     margin: 19px 0;
-
-    .container {
-        padding: 50px 0;
-    }
 
     h2 {
         color: $third_color;
@@ -58,3 +54,33 @@ main {
         color: $second_color;
     }
 }
+
+/* main of single product page */
+
+.product {
+    margin: 19px 0;
+    background-color: #B6DBE4;
+
+    .container {
+        @include flex-align-column(center);
+    }
+
+    h1 {
+        color: $third_color;
+        padding: 25px 0 50px 0;
+    }
+
+    img {
+        max-width: 800px;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    p {
+        color: $third_color;
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
+/* end main*/
