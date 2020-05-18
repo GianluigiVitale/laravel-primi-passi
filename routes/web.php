@@ -17,9 +17,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // })->name('index');
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+// Route::get('/', function () {
+//     return view('home');
+// })->name('home');
+Route::get('/', 'ProductController@home')->name('home');
 
 Route::get('/prodotti', function () {
     return view('prodotti');
